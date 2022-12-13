@@ -1,5 +1,4 @@
 import Foundation
-import BigInt
 
 enum ScaleStringError: Error {
     case unexpectedEncoding

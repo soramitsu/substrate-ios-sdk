@@ -8,11 +8,91 @@
 
 /* Begin PBXBuildFile section */
 		C6DCE5672948480000B8AB12 /* substrate_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DCE5662948480000B8AB12 /* substrate_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6DCE5C829491CF800B8AB12 /* ScaleBoolOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5B729491CF700B8AB12 /* ScaleBoolOption.swift */; };
+		C6DCE5C929491CF800B8AB12 /* UInt16+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5B829491CF700B8AB12 /* UInt16+Scale.swift */; };
+		C6DCE5CA29491CF800B8AB12 /* ScaleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5B929491CF700B8AB12 /* ScaleOption.swift */; };
+		C6DCE5CB29491CF800B8AB12 /* Int32+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BA29491CF700B8AB12 /* Int32+Scale.swift */; };
+		C6DCE5CC29491CF800B8AB12 /* Int64+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BB29491CF700B8AB12 /* Int64+Scale.swift */; };
+		C6DCE5CD29491CF800B8AB12 /* String+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BC29491CF700B8AB12 /* String+Scale.swift */; };
+		C6DCE5CE29491CF800B8AB12 /* Int8+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BD29491CF700B8AB12 /* Int8+Scale.swift */; };
+		C6DCE5CF29491CF800B8AB12 /* Data+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BE29491CF700B8AB12 /* Data+Scale.swift */; };
+		C6DCE5D029491CF800B8AB12 /* Array+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5BF29491CF700B8AB12 /* Array+Scale.swift */; };
+		C6DCE5D129491CF800B8AB12 /* Bool+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C029491CF700B8AB12 /* Bool+Scale.swift */; };
+		C6DCE5D229491CF800B8AB12 /* Int16+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C129491CF700B8AB12 /* Int16+Scale.swift */; };
+		C6DCE5D329491CF800B8AB12 /* Result+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C229491CF700B8AB12 /* Result+Scale.swift */; };
+		C6DCE5D429491CF800B8AB12 /* BigInt+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C329491CF700B8AB12 /* BigInt+Scale.swift */; };
+		C6DCE5D529491CF800B8AB12 /* UInt32+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C429491CF700B8AB12 /* UInt32+Scale.swift */; };
+		C6DCE5D629491CF800B8AB12 /* UInt8+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C529491CF700B8AB12 /* UInt8+Scale.swift */; };
+		C6DCE5D729491CF800B8AB12 /* ScaleTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C629491CF700B8AB12 /* ScaleTuple.swift */; };
+		C6DCE5D829491CF800B8AB12 /* UInt64+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5C729491CF700B8AB12 /* UInt64+Scale.swift */; };
+		C6DCE5DA29491D4700B8AB12 /* ScaleCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5D929491D4700B8AB12 /* ScaleCoding.swift */; };
+		C6DCE5F229491E1A00B8AB12 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5DC29491E1A00B8AB12 /* Random.swift */; };
+		C6DCE5F329491E1A00B8AB12 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5DD29491E1A00B8AB12 /* GCD.swift */; };
+		C6DCE5F429491E1A00B8AB12 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5DE29491E1A00B8AB12 /* Hashable.swift */; };
+		C6DCE5F529491E1A00B8AB12 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5DF29491E1A00B8AB12 /* Strideable.swift */; };
+		C6DCE5F629491E1A00B8AB12 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E029491E1A00B8AB12 /* Addition.swift */; };
+		C6DCE5F729491E1A00B8AB12 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E129491E1A00B8AB12 /* Data Conversion.swift */; };
+		C6DCE5F829491E1A00B8AB12 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E229491E1A00B8AB12 /* Bitwise Ops.swift */; };
+		C6DCE5F929491E1A00B8AB12 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E329491E1A00B8AB12 /* Comparable.swift */; };
+		C6DCE5FA29491E1A00B8AB12 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E429491E1A00B8AB12 /* Words and Bits.swift */; };
+		C6DCE5FB29491E1A00B8AB12 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E529491E1A00B8AB12 /* Square Root.swift */; };
+		C6DCE5FC29491E1A00B8AB12 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E629491E1A00B8AB12 /* Division.swift */; };
+		C6DCE5FD29491E1A00B8AB12 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E729491E1A00B8AB12 /* Prime Test.swift */; };
+		C6DCE5FE29491E1A00B8AB12 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E829491E1A00B8AB12 /* Codable.swift */; };
+		C6DCE5FF29491E1A00B8AB12 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5E929491E1A00B8AB12 /* BigUInt.swift */; };
+		C6DCE60029491E1A00B8AB12 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5EA29491E1A00B8AB12 /* Multiplication.swift */; };
+		C6DCE60129491E1A00B8AB12 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5EB29491E1A00B8AB12 /* Exponentiation.swift */; };
+		C6DCE60229491E1A00B8AB12 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5EC29491E1A00B8AB12 /* Floating Point Conversion.swift */; };
+		C6DCE60329491E1A00B8AB12 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5ED29491E1A00B8AB12 /* Shifts.swift */; };
+		C6DCE60429491E1A00B8AB12 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5EE29491E1A00B8AB12 /* Subtraction.swift */; };
+		C6DCE60529491E1A00B8AB12 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5EF29491E1A00B8AB12 /* Integer Conversion.swift */; };
+		C6DCE60629491E1A00B8AB12 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5F029491E1A00B8AB12 /* BigInt.swift */; };
+		C6DCE60729491E1A00B8AB12 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCE5F129491E1A00B8AB12 /* String Conversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6DCE5632948480000B8AB12 /* substrate_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = substrate_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DCE5662948480000B8AB12 /* substrate_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = substrate_ios_sdk.h; sourceTree = "<group>"; };
+		C6DCE5B729491CF700B8AB12 /* ScaleBoolOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleBoolOption.swift; sourceTree = "<group>"; };
+		C6DCE5B829491CF700B8AB12 /* UInt16+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt16+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5B929491CF700B8AB12 /* ScaleOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleOption.swift; sourceTree = "<group>"; };
+		C6DCE5BA29491CF700B8AB12 /* Int32+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int32+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5BB29491CF700B8AB12 /* Int64+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int64+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5BC29491CF700B8AB12 /* String+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5BD29491CF700B8AB12 /* Int8+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int8+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5BE29491CF700B8AB12 /* Data+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5BF29491CF700B8AB12 /* Array+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C029491CF700B8AB12 /* Bool+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C129491CF700B8AB12 /* Int16+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int16+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C229491CF700B8AB12 /* Result+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C329491CF700B8AB12 /* BigInt+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BigInt+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C429491CF700B8AB12 /* UInt32+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt32+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C529491CF700B8AB12 /* UInt8+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt8+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5C629491CF700B8AB12 /* ScaleTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleTuple.swift; sourceTree = "<group>"; };
+		C6DCE5C729491CF700B8AB12 /* UInt64+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt64+Scale.swift"; sourceTree = "<group>"; };
+		C6DCE5D929491D4700B8AB12 /* ScaleCoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCoding.swift; sourceTree = "<group>"; };
+		C6DCE5DC29491E1A00B8AB12 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		C6DCE5DD29491E1A00B8AB12 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		C6DCE5DE29491E1A00B8AB12 /* Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
+		C6DCE5DF29491E1A00B8AB12 /* Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strideable.swift; sourceTree = "<group>"; };
+		C6DCE5E029491E1A00B8AB12 /* Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		C6DCE5E129491E1A00B8AB12 /* Data Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Conversion.swift"; sourceTree = "<group>"; };
+		C6DCE5E229491E1A00B8AB12 /* Bitwise Ops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bitwise Ops.swift"; sourceTree = "<group>"; };
+		C6DCE5E329491E1A00B8AB12 /* Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		C6DCE5E429491E1A00B8AB12 /* Words and Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Words and Bits.swift"; sourceTree = "<group>"; };
+		C6DCE5E529491E1A00B8AB12 /* Square Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Square Root.swift"; sourceTree = "<group>"; };
+		C6DCE5E629491E1A00B8AB12 /* Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		C6DCE5E729491E1A00B8AB12 /* Prime Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Prime Test.swift"; sourceTree = "<group>"; };
+		C6DCE5E829491E1A00B8AB12 /* Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		C6DCE5E929491E1A00B8AB12 /* BigUInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigUInt.swift; sourceTree = "<group>"; };
+		C6DCE5EA29491E1A00B8AB12 /* Multiplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multiplication.swift; sourceTree = "<group>"; };
+		C6DCE5EB29491E1A00B8AB12 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
+		C6DCE5EC29491E1A00B8AB12 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		C6DCE5ED29491E1A00B8AB12 /* Shifts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shifts.swift; sourceTree = "<group>"; };
+		C6DCE5EE29491E1A00B8AB12 /* Subtraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtraction.swift; sourceTree = "<group>"; };
+		C6DCE5EF29491E1A00B8AB12 /* Integer Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer Conversion.swift"; sourceTree = "<group>"; };
+		C6DCE5F029491E1A00B8AB12 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		C6DCE5F129491E1A00B8AB12 /* String Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Conversion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +125,66 @@
 		C6DCE5652948480000B8AB12 /* substrate-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				C6DCE5DB29491E1A00B8AB12 /* BigInt */,
 				C6DCE5662948480000B8AB12 /* substrate_ios_sdk.h */,
+				C6DCE56D294911F100B8AB12 /* Sources */,
 			);
 			path = "substrate-ios-sdk";
 			sourceTree = "<group>";
+		};
+		C6DCE56D294911F100B8AB12 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCE5BF29491CF700B8AB12 /* Array+Scale.swift */,
+				C6DCE5C329491CF700B8AB12 /* BigInt+Scale.swift */,
+				C6DCE5C029491CF700B8AB12 /* Bool+Scale.swift */,
+				C6DCE5BE29491CF700B8AB12 /* Data+Scale.swift */,
+				C6DCE5BD29491CF700B8AB12 /* Int8+Scale.swift */,
+				C6DCE5C129491CF700B8AB12 /* Int16+Scale.swift */,
+				C6DCE5BA29491CF700B8AB12 /* Int32+Scale.swift */,
+				C6DCE5BB29491CF700B8AB12 /* Int64+Scale.swift */,
+				C6DCE5C229491CF700B8AB12 /* Result+Scale.swift */,
+				C6DCE5B729491CF700B8AB12 /* ScaleBoolOption.swift */,
+				C6DCE5B929491CF700B8AB12 /* ScaleOption.swift */,
+				C6DCE5C629491CF700B8AB12 /* ScaleTuple.swift */,
+				C6DCE5BC29491CF700B8AB12 /* String+Scale.swift */,
+				C6DCE5C529491CF700B8AB12 /* UInt8+Scale.swift */,
+				C6DCE5B829491CF700B8AB12 /* UInt16+Scale.swift */,
+				C6DCE5C429491CF700B8AB12 /* UInt32+Scale.swift */,
+				C6DCE5C729491CF700B8AB12 /* UInt64+Scale.swift */,
+				C6DCE5D929491D4700B8AB12 /* ScaleCoding.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		C6DCE5DB29491E1A00B8AB12 /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCE5DC29491E1A00B8AB12 /* Random.swift */,
+				C6DCE5DD29491E1A00B8AB12 /* GCD.swift */,
+				C6DCE5DE29491E1A00B8AB12 /* Hashable.swift */,
+				C6DCE5DF29491E1A00B8AB12 /* Strideable.swift */,
+				C6DCE5E029491E1A00B8AB12 /* Addition.swift */,
+				C6DCE5E129491E1A00B8AB12 /* Data Conversion.swift */,
+				C6DCE5E229491E1A00B8AB12 /* Bitwise Ops.swift */,
+				C6DCE5E329491E1A00B8AB12 /* Comparable.swift */,
+				C6DCE5E429491E1A00B8AB12 /* Words and Bits.swift */,
+				C6DCE5E529491E1A00B8AB12 /* Square Root.swift */,
+				C6DCE5E629491E1A00B8AB12 /* Division.swift */,
+				C6DCE5E729491E1A00B8AB12 /* Prime Test.swift */,
+				C6DCE5E829491E1A00B8AB12 /* Codable.swift */,
+				C6DCE5E929491E1A00B8AB12 /* BigUInt.swift */,
+				C6DCE5EA29491E1A00B8AB12 /* Multiplication.swift */,
+				C6DCE5EB29491E1A00B8AB12 /* Exponentiation.swift */,
+				C6DCE5EC29491E1A00B8AB12 /* Floating Point Conversion.swift */,
+				C6DCE5ED29491E1A00B8AB12 /* Shifts.swift */,
+				C6DCE5EE29491E1A00B8AB12 /* Subtraction.swift */,
+				C6DCE5EF29491E1A00B8AB12 /* Integer Conversion.swift */,
+				C6DCE5F029491E1A00B8AB12 /* BigInt.swift */,
+				C6DCE5F129491E1A00B8AB12 /* String Conversion.swift */,
+			);
+			path = BigInt;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -129,6 +265,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DCE5D829491CF800B8AB12 /* UInt64+Scale.swift in Sources */,
+				C6DCE5CF29491CF800B8AB12 /* Data+Scale.swift in Sources */,
+				C6DCE5D029491CF800B8AB12 /* Array+Scale.swift in Sources */,
+				C6DCE5F829491E1A00B8AB12 /* Bitwise Ops.swift in Sources */,
+				C6DCE5CB29491CF800B8AB12 /* Int32+Scale.swift in Sources */,
+				C6DCE5D129491CF800B8AB12 /* Bool+Scale.swift in Sources */,
+				C6DCE5CC29491CF800B8AB12 /* Int64+Scale.swift in Sources */,
+				C6DCE60729491E1A00B8AB12 /* String Conversion.swift in Sources */,
+				C6DCE5C829491CF800B8AB12 /* ScaleBoolOption.swift in Sources */,
+				C6DCE5FA29491E1A00B8AB12 /* Words and Bits.swift in Sources */,
+				C6DCE60029491E1A00B8AB12 /* Multiplication.swift in Sources */,
+				C6DCE5CA29491CF800B8AB12 /* ScaleOption.swift in Sources */,
+				C6DCE5F729491E1A00B8AB12 /* Data Conversion.swift in Sources */,
+				C6DCE5D229491CF800B8AB12 /* Int16+Scale.swift in Sources */,
+				C6DCE5FD29491E1A00B8AB12 /* Prime Test.swift in Sources */,
+				C6DCE60129491E1A00B8AB12 /* Exponentiation.swift in Sources */,
+				C6DCE5D729491CF800B8AB12 /* ScaleTuple.swift in Sources */,
+				C6DCE5FC29491E1A00B8AB12 /* Division.swift in Sources */,
+				C6DCE5F429491E1A00B8AB12 /* Hashable.swift in Sources */,
+				C6DCE5F929491E1A00B8AB12 /* Comparable.swift in Sources */,
+				C6DCE5F329491E1A00B8AB12 /* GCD.swift in Sources */,
+				C6DCE5F629491E1A00B8AB12 /* Addition.swift in Sources */,
+				C6DCE60429491E1A00B8AB12 /* Subtraction.swift in Sources */,
+				C6DCE5D429491CF800B8AB12 /* BigInt+Scale.swift in Sources */,
+				C6DCE5CE29491CF800B8AB12 /* Int8+Scale.swift in Sources */,
+				C6DCE5F529491E1A00B8AB12 /* Strideable.swift in Sources */,
+				C6DCE5DA29491D4700B8AB12 /* ScaleCoding.swift in Sources */,
+				C6DCE5D329491CF800B8AB12 /* Result+Scale.swift in Sources */,
+				C6DCE5C929491CF800B8AB12 /* UInt16+Scale.swift in Sources */,
+				C6DCE5D629491CF800B8AB12 /* UInt8+Scale.swift in Sources */,
+				C6DCE60329491E1A00B8AB12 /* Shifts.swift in Sources */,
+				C6DCE5FF29491E1A00B8AB12 /* BigUInt.swift in Sources */,
+				C6DCE60229491E1A00B8AB12 /* Floating Point Conversion.swift in Sources */,
+				C6DCE5F229491E1A00B8AB12 /* Random.swift in Sources */,
+				C6DCE5FB29491E1A00B8AB12 /* Square Root.swift in Sources */,
+				C6DCE5D529491CF800B8AB12 /* UInt32+Scale.swift in Sources */,
+				C6DCE60629491E1A00B8AB12 /* BigInt.swift in Sources */,
+				C6DCE60529491E1A00B8AB12 /* Integer Conversion.swift in Sources */,
+				C6DCE5FE29491E1A00B8AB12 /* Codable.swift in Sources */,
+				C6DCE5CD29491CF800B8AB12 /* String+Scale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

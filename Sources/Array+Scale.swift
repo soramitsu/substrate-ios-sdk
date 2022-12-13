@@ -1,5 +1,4 @@
 import Foundation
-import BigInt
 
 extension Array: ScaleCodable where Element: ScaleCodable {
     public func encode(scaleEncoder: ScaleEncoding) throws {
