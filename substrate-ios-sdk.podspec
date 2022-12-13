@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/soramitsu/substrate-ios-sdk"
   s.authors      = "Denis Lebedko"
   s.license      = "Soramitsu"
-  s.platform     = :ios, "13.4"
+  s.platform     = :ios, "12.0"
   s.source       = { :git => "https://github.com/soramitsu/substrate-ios-sdk.git" }
   s.source_files = "Sources/**/*"
   s.swift_version = "5.0"
