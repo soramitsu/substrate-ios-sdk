@@ -1,6 +1,6 @@
 //
 //  substrate_ios_sdk.h
-//  substrate-ios-sdk
+//  substrate_ios_sdk
 //
 //  Created by Денис Лебедько on 13.12.2022.
 //

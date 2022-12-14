@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "substrate-ios-sdk"
+  s.name         = "substrate_ios_sdk"
   s.version      = "0.0.1"
   s.summary      = "iOS utils for substrate sdk"
   s.homepage     = "https://github.com/soramitsu/substrate-ios-sdk"
